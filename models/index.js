@@ -1,0 +1,310 @@
+/* 
+This file contains Attendee data. In the real-world, we would probably get this data from a database. However for now - we're hardcoding the data here.
+
+You shouldn't change anything in this file.
+
+attendees: A list of Attendee Objects. None of the feilds are nullable.
+*/
+
+export const attendees = [
+    {
+      attendeeId: "A0",
+      name: "Tania Lorina",
+      type: "STUDENT",
+      age: 18,
+    },
+    {
+      attendeeId: "A1",
+      name: "Boitumelo Ayaan",
+      type: "SENIOR",
+      age: 38,
+    },
+    {
+      attendeeId: "A2",
+      name: "Gayatri Padma",
+      type: "MIDCAREER",
+      age: 33,
+    },
+    {
+      attendeeId: "A3",
+      name: "Jennifer Ismene",
+      type: "STUDENT",
+      age: 21,
+    },
+    {
+      attendeeId: "A4",
+      name: "Júlio Anacleto",
+      type: "INTERN",
+      age: 29,
+    },
+    {
+      attendeeId: "A5",
+      name: "Delilah Javiera Botello",
+      type: "MIDCAREER",
+      age: 48,
+    },
+    {
+      attendeeId: "A6",
+      name: "Salli Vaishnavi Del Río",
+      type: "INTERN",
+      age: 23,
+    },
+    {
+      attendeeId: "A7",
+      name: "Horatia Bushra Mortensen",
+      type: "ENTRYLEVEL",
+      age: 21,
+    },
+    {
+      attendeeId: "A8",
+      name: "Etel Tyrell",
+      type: "MIDCAREER",
+      age: 40,
+    },
+    {
+      attendeeId: "A9",
+      name: "Phyliss Droit",
+      type: "SENIOR",
+      age: 51,
+    },
+    {
+      attendeeId: "A10",
+      name: "Max Nelson",
+      type: "STUDENT",
+      age: 25,
+    },
+    {
+      attendeeId: "A11",
+      name: "Maha Sheikh",
+      type: "SENIOR",
+      age: 32,
+    },
+    {
+      attendeeId: "A12",
+      name: "Henricus Ó Coileáin",
+      type: "MIDCAREER",
+      age: 29,
+    },
+    {
+      attendeeId: "A13",
+      name: "Nesim Keil",
+      type: "STUDENT",
+      age: 19,
+    },
+    {
+      attendeeId: "A14",
+      name: "Priya Movva",
+      type: "EXECUTIVE",
+      age: 37,
+    },
+    {
+      attendeeId: "A15",
+      name: "Sarah Burns",
+      type: "MIDCAREER",
+      age: 27,
+    },
+    {
+      attendeeId: "A16",
+      name: "Jamsheed Sundström",
+      type: "INTERN",
+      age: 18,
+    },
+    {
+      attendeeId: "A17",
+      name: "Ángeles Gómez",
+      type: "ENTRYLEVEL",
+      age: 25,
+    },
+    {
+      attendeeId: "A18",
+      name: "Gregoria Fontana",
+      type: "MIDCAREER",
+      age: 35,
+    },
+    {
+      attendeeId: "A19",
+      name: "Angelita Mora",
+      type: "SENIOR",
+      age: 42,
+    },
+    {
+      attendeeId: "A20",
+      name: "Bo Mah",
+      type: "STUDENT",
+      age: 20,
+    },
+    {
+      attendeeId: "A21",
+      name: "Yahui Song",
+      type: "SENIOR",
+      age: 60,
+    },
+    {
+      attendeeId: "A22",
+      name: "Keala Nguyen",
+      type: "MIDCAREER",
+      age: 44,
+    },
+    {
+      attendeeId: "A23",
+      name: "Malai Hoàng",
+      type: "STUDENT",
+      age: 16,
+    },
+    {
+      attendeeId: "A24",
+      name: "Kawehi Wattana",
+      type: "EXECUTIVE",
+      age: 49,
+    },
+    {
+      attendeeId: "A25",
+      name: "Marie-Noëlle Perrault",
+      type: "MIDCAREER",
+      age: 28,
+    },
+    {
+      attendeeId: "A26",
+      name: "Hoa Denis",
+      type: "INTERN",
+      age: 30,
+    },
+    {
+      attendeeId: "A27",
+      name: "Nicole Rayne",
+      type: "ENTRYLEVEL",
+      age: 24,
+    },
+    {
+      attendeeId: "A28",
+      name: "Fanny Colbert",
+      type: "MIDCAREER",
+      age: 55,
+    },
+    {
+      attendeeId: "A29",
+      name: "Sung-Hyun Im",
+      type: "SENIOR",
+      age: 43,
+    },
+    {
+      attendeeId: "A30",
+      name: "Minh Nguyen",
+      type: "STUDENT",
+      age: 17,
+    },
+    {
+      attendeeId: "A31",
+      name: "Akanksha Bachchan",
+      type: "SENIOR",
+      age: 39,
+    },
+    {
+      attendeeId: "A32",
+      name: "Shailaja Das",
+      type: "MIDCAREER",
+      age: 32,
+    },
+    {
+      attendeeId: "A33",
+      name: "Michelle D'Souza",
+      type: "STUDENT",
+      age: 22,
+    },
+    {
+      attendeeId: "A34",
+      name: "Nawra Ahmad",
+      type: "EXECUTIVE",
+      age: 47,
+    },
+    {
+      attendeeId: "A35",
+      name: "Bahija Hakim",
+      type: "MIDCAREER",
+      age: 48,
+    },
+    {
+      attendeeId: "A36",
+      name: "Toini Lahti",
+      type: "INTERN",
+      age: 18,
+    },
+    {
+      attendeeId: "A37",
+      name: "Aada Martikainen",
+      type: "ENTRYLEVEL",
+      age: 25,
+    },
+    {
+      attendeeId: "A38",
+      name: "Leena Järvi",
+      type: "MIDCAREER",
+      age: 34,
+    },
+    {
+      attendeeId: "A39",
+      name: "Sveta Romanov",
+      type: "SENIOR",
+      age: 52,
+    },
+    {
+      attendeeId: "A40",
+      name: "Amintaou Okonkwo",
+      type: "STUDENT",
+      age: 18,
+    },
+    {
+      attendeeId: "A41",
+      name: "Mia Shelton",
+      type: "SENIOR",
+      age: 38,
+    },
+    {
+      attendeeId: "A42",
+      name: "Kendall Airaldi",
+      type: "MIDCAREER",
+      age: 33,
+    },
+    {
+      attendeeId: "A43",
+      name: "Darcy Kitchens",
+      type: "STUDENT",
+      age: 23,
+    },
+    {
+      attendeeId: "A44",
+      name: "Kamilla Jørgensen",
+      type: "EXECUTIVE",
+      age: 25,
+    },
+    {
+      attendeeId: "A45",
+      name: "Jessica Johansen",
+      type: "MIDCAREER",
+      age: 53,
+    },
+    {
+      attendeeId: "A46",
+      name: "Gerallt Slusser",
+      type: "INTERN",
+      age: 22,
+    },
+    {
+      attendeeId: "A47",
+      name: "Anton Kavanah",
+      type: "ENTRYLEVEL",
+      age: 23,
+    },
+    {
+      attendeeId: "A48",
+      name: "Neelam Chlebek",
+      type: "MIDCAREER",
+      age: 41,
+    },
+    {
+      attendeeId: "A49",
+      name: "Mattie Schmitz",
+      type: "SENIOR",
+      age: 50,
+    }
+  ];
