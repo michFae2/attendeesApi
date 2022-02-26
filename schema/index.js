@@ -31,8 +31,8 @@ export default gql`
     age: Int!
   }
   type Query {
-    getAttendeeById(attendeeId: ID!): Attendee
-    getAttendees: [Attendee]
+    getAttendeeById(attendeeId: ID!): Attendee # Set to nullable since we will return null if attendee doesn't exist
+    getAttendees: [Attendee!]
   }
   
 `;
